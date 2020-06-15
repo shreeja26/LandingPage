@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+  }
+.navbar-brand{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.bg-8{
+    border: 4px solid rgb(223, 39, 70);
+    height: 16vh;
+    font-weight: bolder;
+    background-color:pink;
+    color: rgb(141, 13, 34); 
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+}
+@media only screen and (max-width: 850px) {
+    .bg-8{
+        font-size: 25px;
+        height: 10vh;
+    }
+
+}
+
+.container{
+    
+    margin-top: 100px;
+}
+.bg-1{
+    background: url(./images/fashion.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-top: 50px;
+}
+.text{
+    width: 50vw;
+    height: 34vh;
+    
+    margin-right: 5vw;
+    margin-top: 19vh;
+    text-align: center;
+    float: right;
+    justify-content: center;
+    padding-top: 1vh;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    letter-spacing: .5vw;
+}
+@media only screen and (max-width: 850px) {
+    .text{
+        font-size: 4vh;
+        letter-spacing: 2.2px;
+    }
+
+}
+
+.bg-2{
+    margin-top: 3vh;
+}
+.bg-2 h2{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    overflow-y: hidden;
+    
+}
+.diy{
+    width: 100vw;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.diy1{
+    margin-top: 2vh;
+    padding-top: 0;
+    width: 540px;
+    height: 640px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0;
+    overflow-y: hidden;
+    
+}
+@media only screen and (max-width: 850px) {
+    .diy{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+        height: 100vh;
+    }
+}
+#home{
+    background: url(./images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#quarantine{
+    background: url(./images/quarantine.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hometext{
+    width: 35vw;
+    height: 20vh;
+    letter-spacing: 3px;
+   margin-top: 66vh;
+   font-size: 7vh;
+   font-family: 'Suez One', serif;
+   color: black;
+}
+.quarantinetext{
+    width: 35vw;
+    height: 27vh;
+    letter-spacing: 3px;
+    margin-top: 3vh;
+    font-size: 9vh;
+    font-family: 'Suez One', serif;
+    color: black;
+
+}
+.diytext{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    margin-left: 9vw;
+    overflow-y: hidden;
+}
+@media only screen and (max-width: 850px) {
+    .hometext{
+        font-size: 6vh;
+        margin-top: 40vh;
+        width: 95vw;
+        margin-left: 5vw;
+        letter-spacing: 0;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .quarantinetext{
+        letter-spacing: 0;
+        font-size: 8vh;
+        width: 80vw;
+        margin-left: 5vw;
+    }
+}
+.bg-3 h2{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    overflow-y: hidden;
+}
+.bg-3{
+    margin-bottom: 6vh;
+}
+.colortext{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    overflow-y: hidden;
+    margin-top: 3vh;
+
+}
+.bg-4{
+    background-color: rgb(247, 169, 169);
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    width: 50vh;
+    height: 72vh;
+}
+.pic1,.pic2,.pic3{
+    width: 50vw;
+    height: 50vh;
+    overflow-y: hidden;
+    margin: 2px;
+}
+.des1,.des2,.des3{
+    width: 50vw;
+    height: 5vh;
+    align-items: center;
+    font-family: 'Suez One', serif;
+    font-size: 3vh;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 6vw;
+}
+@media only screen and (max-width: 850px) { 
+    .bg-4{
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+
+        
+    }
+}
+@media only screen and (max-width: 850px) {
+    .col{
+        margin: 3vh auto;
+        height: 80vh;
+        width: 50vw;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .pic1,.pic2,.pic3{
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #pic11,#pic22,#pic33{
+        width: 70vw;
+        height: 20vh;
+    }
+}
+
+#pic11:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
+#pic22:hover{
+        opacity: 0.5;
+        cursor: pointer;
+}
+#pic33:hover{
+        opacity: 0.5;
+        cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    .des1,.des2,.des3{
+        height: 6vh;
+        font-size: 2vh;
+    }
+}
+#pic11{
+    background: url(./images/ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 27vw;
+}
+#pic22{
+    background: url(./images/sunset.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 27vw;
+}
+#pic33{
+    background: url(./images/leaves.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 27vw;
+}
+.storytext{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    overflow-y: hidden;
+}
+
+.story{
+    
+    width: 90vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.story1{
+    
+    width: 30vw;
+    height: 65vh;
+    margin: 0 2%;
+}
+#story11{
+    background: url(./images/yoga.jpg);
+    background-position: center;
+    background-size: cover; 
+   
+}
+#story22{
+    background: url(./images/book.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+#story33{
+    background: url(./images/calm.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+@media only screen and (max-width: 850px) {
+    .story{
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .story1{
+        margin: 2%;
+        height: 40vh;
+        width: 40vw;
+    }
+
+}
+.bg-5 {
+    height: 5vh;
+    background-color: rgb(40, 40, 54); 
+    
+}
+.bg-5 a{
+    color: white;
+    font-size: 2.5vh;
+    
+    justify-content: center;
+    text-decoration: none;
+}
+.bg-5 a:hover{
+    color: white;
+
+}
+.bg-6{
+    height: 9.5vh;;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.log1{
+    width: 3vw;
+    height: 7vh;
+    overflow-y: hidden;
+    font-size: 25px;
+    margin: 8px 7px;
+}
+@media only screen and (max-width: 850px) {
+    .log1{
+        margin: 8px 0px;
+        font-size: 15px;
+        width: 5vw;
+        height: 6vh;
+        overflow-y: hidden;
+    }
+
+}
+.bg-7{
+    height: 4vh;
+    background-color: rgb(10, 6, 6);
+    color: white;
+    letter-spacing: 1.5px;
+    padding-top: 2px;
+}
+  
